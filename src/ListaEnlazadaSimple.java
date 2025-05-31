@@ -66,7 +66,7 @@ public class ListaEnlazadaSimple {
      * @param dato
      * @return true si el objetivo es eliminado, false si no hay coincidencias
      */
-    public boolean eliminar(int dato){
+public boolean eliminar(int dato){
         if(cabeza == null){
             return false;
         }
