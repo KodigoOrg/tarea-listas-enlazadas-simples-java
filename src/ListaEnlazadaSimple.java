@@ -57,6 +57,7 @@ public class ListaEnlazadaSimple {
          while (actual.getSiguiente() != null){
             actual = actual.getSiguiente();
          }
+         actual.setSiguiente(nuevoNodo);
     }
 
     /**
