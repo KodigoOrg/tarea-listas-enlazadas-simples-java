@@ -8,6 +8,13 @@ public class ListaEnlazadaSimple {
         this.cabeza = cabeza;
     }
 
+    public boolean esListaVacia(){
+        if(cabeza==null){
+            return true;
+        }
+        return false;
+    }
+
     /**
      * Inserta nuevo nodo al final
      * @param dato
